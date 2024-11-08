@@ -1,0 +1,74 @@
+.div-top 
+{
+    background: #495057;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 3px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 0rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.div-top h1
+{
+    FONT-SIZE: 23px; 
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.div-bottom 
+{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dd-handle
+{
+    height: 60px!important;
+    border-left: 10px solid #ccc !important;
+    font-weight: unset!important;
+    padding: 14px 10px!important;
+
+}
+
+.table-warning 
+{
+    border-left-color:yellow !important; 
+}
+
+.nestable-item .desc
+{
+  display: inline-block;  
+}
+
+.nestable-item .desc .title
+{
+    font-size: 18px;
+}
+
+.table-warning .nestable-item
+{
+    background-color: #fff3cd !important;
+}
+
+.nestable-item .actions
+{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.btn-sm 
+{
+    --bs-btn-padding-y: 0.1rem!important;
+    --bs-btn-padding-x: 0.4rem!important;
+    --bs-btn-font-size: 0.75rem!important;
+}
